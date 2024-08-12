@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace de Artículos de Tatuajes</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header>
+        <div class="logo1">
+            <img src="assets/images/logo.png" alt="logo Inge Tattoo Studio" class="logo">
+            <h1 class="title1">INGE TATTOO STUDIO</h1>
+        </div>
+        <div class="carrito">
+            <img class="carroCompras" src="assets/images/carritoCompras.jpg" alt="carrito">
+            <button class="imgCarrito" onclick="verCarrito()">Carrito (<span id="cantidadCarrito">0</span>)</button>
+        </div>
+    </header>
+    <main>
+        <div id="productos-container"></div>
+    </main>
+    <script type="module" src="scripts/products.js"></script>
+  <script type="module" src="scripts/app.js"></script>
+</body>
+</html>

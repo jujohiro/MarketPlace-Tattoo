@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1d2d4e;
+    color: rgb(182, 22, 22);
+    padding: 5px;
+    text-align: center;
+    display:flex;
+    justify-content:flex-start;
+  }
+  .logo1{
+    width: 100%;
+    display: flex;
+
+}
+  .logo {
+        width: 100%;
+        display: flex;
+        height:150px;
+        width: 150px;
+        justify-content:space-evenly;
+       margin: 40px;
+    }
+  .title1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #fffefe;
+    text-decoration:double;
+    text-align: center;
+    margin: 60px;
+    
+  }
+  .carroCompras {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    width: 70px;
+    height: 70px;
+  }
+  
+  h2{
+    color:rgb(163, 9, 9);
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 20px;
+}
+
+  
+  .carrito {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  h3{
+    text-align: center;
+  }
+
+  /* Estilo del contenedor de productos */
+#productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color: #b20404;
+}
+
+/* Estilo de cada tarjeta de producto */
+.product1 {
+  background-color: #d9e2f3;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 15px;
+  width: 300px;
+  height: 450px; /* Fija la altura para todas las tarjetas */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product1 img {
+  height: 200px;
+  width: 100%;
+  border: 5px solid rgb(24, 61, 130);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.product1 h3 {
+  font-size: 1.2rem;
+  margin: 15px 0 10px;
+  color: #333;
+}
+
+.product1 .par {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.product1 .price {
+  font-size: 1.2rem;
+  color: #1d2d4e;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.product1 .buttons {
+  background-color: #1d2d4e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.product1 .buttons:hover {
+  background-color: #163b7a;
+}
